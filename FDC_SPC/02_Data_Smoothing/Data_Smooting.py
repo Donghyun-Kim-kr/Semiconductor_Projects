@@ -41,8 +41,8 @@ df_active = df_trace[df_trace["Step_No"] == 3].copy()
 
 
 #----------------------------결측치 처리 (선형보간 or Forward Fill)------------------------------------
-df_active["Pressure_Cleaned"] = df_active["Pressure"].interpolate(method="linear")
-# df_active["Pressure_Cleaned"] = df_active["Pressure"].ffill()
+df_active["Pressure_Cleaned"] = df_active["Pressure"].ffill()
+#df_active["Pressure_Cleaned"] = df_active["Pressure"].interpolate(method="linear")
 #----------------------------------------------------------------------------------------------------
 
 
