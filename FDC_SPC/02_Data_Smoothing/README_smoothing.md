@@ -34,11 +34,16 @@ Step No 3 슬라이싱
 
 ### 결측치 처리
 지양할 것
+<br />
 Dropna() -> 결측치 존재하는 timestamp를 통째로 삭제
 
 선택한 방향성
+<br />
 ffill() -> NaN(결측치) 이전 가장 가까운 값으로 채운다 (forward fill)
+<br />
 interpolate(method="linear") -> 선형 보간법으로 결측치 앞과 뒤를 기준으로 선형적으로 채운다
+<br />
+
 <img width="747" height="725" alt="image" src="https://github.com/user-attachments/assets/fc46dcc3-accb-44b1-9210-87c8cde5e650" />
 
 
@@ -46,7 +51,11 @@ interpolate(method="linear") -> 선형 보간법으로 결측치 앞과 뒤를 �
 
 <br />
 
+
 ### 인터랙티브 그래프 플롯
 코드 실행 시 plotly 라이브러리 기반 인터랙티브 그래프가 플롯된다.
+<br />
 본 README 파일에서는 캡쳐이미지를 첨부하였다.
+<br />
+
 <img width="1668" height="450" alt="image" src="https://github.com/user-attachments/assets/2bb1ce55-63c3-4fa9-868a-f6f47e388a84" />
