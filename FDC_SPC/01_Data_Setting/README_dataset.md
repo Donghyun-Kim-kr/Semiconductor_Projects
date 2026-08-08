@@ -22,3 +22,12 @@ Plasma 활용 Etch 공정의 센서 데이터 모사
 - Temp_He_Focus : 78.5~81.5 C - He Focus Ring 후면 냉각 온도
 - Defect_Label : 0 정상 / 1 불량 - EDC 전기적 테스트 결과 최종 양부 판정
 
+### Step 단위 데이터 슬라이싱
+<img width="536" height="218" alt="image" src="https://github.com/user-attachments/assets/b312dbb5-a358-4482-99cb-3b482f1de50b" />
+
+각 스텝별 평균 압력/RF Power / Temp 등을 분리해서 적용
+
+### 결측치
+<img width="372" height="217" alt="image" src="https://github.com/user-attachments/assets/dcb447f9-b79c-4b18-9599-abfa4b608203" />
+
+현재 결측치는 정의되지 않은 상태
